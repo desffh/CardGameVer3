@@ -44,7 +44,7 @@ public class StageButton : MonoBehaviour
         stagecanvas.gameObject.SetActive(false);
 
         // √ ±‚»≠
-        //KardManager.Instance.SetupNextStage();
+        KardManager.Instance.SetupNextStage();
     }
 
 
@@ -54,6 +54,13 @@ public class StageButton : MonoBehaviour
     {
         Entycanvas.gameObject.SetActive(false);
         stagecanvas.gameObject.SetActive(true);
+
+
+        if(Round.Instance.CurrentScores == Round.Instance.stages[2])
+        {
+            Round.Instance.ScoreSetting();
+        }
+
     }
 
     public void NextEntyOff()

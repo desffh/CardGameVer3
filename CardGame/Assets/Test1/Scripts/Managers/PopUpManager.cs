@@ -24,11 +24,9 @@ public class PopUpManager : Singleton<PopUpManager>
 
     public IEnumerator OnClearPopup()
     {
-        yield return CoroutineCache.WaitForSeconds(4f);
-
         OnClearPopUp();
-
-        yield break;
+        
+        yield return null;
     }
     
 }

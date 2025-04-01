@@ -32,15 +32,7 @@ public class PokerManager : Singleton<PokerManager>
     // 리스트에 값이 들어가있다면 실행가능 상태
     private void Update()
     {
-        if(CardIDdata.Count > 0)
-        {
-            GameManager.Instance.Execute();
-        }
-        else
-        {
-            GameManager.Instance.Finish();
-            return;
-        }
+
     }
 
     // 값을 가져오고 리스트에 저장 (순차적으로) / Card 타입을 받기
@@ -200,7 +192,7 @@ public class PokerManager : Singleton<PokerManager>
                     TextManager.PokerTextUpdate("포 카드");
                     HoldManager.Instance.PokerCalculate(60, 7);
 
-                    //Debug.Log("포카드");
+                    Debug.Log("포카드");
                 }
                 else if (firstElement.Value == 4)
                 {
@@ -211,7 +203,7 @@ public class PokerManager : Singleton<PokerManager>
                     TextManager.PokerTextUpdate("포 카드");
                     HoldManager.Instance.PokerCalculate(60, 7);
 
-                    //Debug.Log("포카드");
+                    Debug.Log("포카드");
                 }
                 else
                 {
@@ -223,11 +215,29 @@ public class PokerManager : Singleton<PokerManager>
                     TextManager.PokerTextUpdate("풀 하우스");
                     HoldManager.Instance.PokerCalculate(40, 4);
 
-                    //Debug.Log("풀 하우스");
+                    Debug.Log("풀 하우스");
                 }
                 return;
             }
         }
+
+        if(rankCount.Values.Contains(4))
+        {
+            // 4와 똑같은 벨류값을 가진애 찾기
+            foreach (var item in rankCount.Where(x => x.Value == 4))
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    saveNum.Add(item.Key);
+                }
+            }
+            TextManager.PokerTextUpdate("포 카드");
+            HoldManager.Instance.PokerCalculate(60, 7);
+
+            //Debug.Log("포 카드");
+            return;
+        }    
+
 
         // 트리플 처리
         if (rankCount.Values.Contains(3))

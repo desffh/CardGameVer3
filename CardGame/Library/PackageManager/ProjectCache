@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/Users/yangj/OneDrive/\uBC14\uD0D5 \uD654\uBA74/CardGameVer2/CardGame/Packages/manifest.json"
+    m_FilePath: C:/Users/Administrator/Desktop/CardGameVer3/CardGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638787726613906782
+      ticks: 638790674858885886
     m_Hash: 1721713777
   m_LockFileStatus:
-    m_FilePath: "C:/Users/yangj/OneDrive/\uBC14\uD0D5 \uD654\uBA74/CardGameVer2/CardGame/Packages/packages-lock.json"
+    m_FilePath: C:/Users/Administrator/Desktop/CardGameVer3/CardGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638790201258571215
-    m_Hash: 277794160
+      ticks: 638790675592284843
+    m_Hash: 1725310129
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: "C:/Users/yangj/OneDrive/\uBC14\uD0D5 \uD654\uBA74/CardGameVer2/CardGame/Packages"
-m_EditorVersion: 2022.3.40f1 (cbdda657d2f0)
+m_ProjectPath: C:/Users/Administrator/Desktop/CardGameVer3/CardGame/Packages
+m_EditorVersion: 2022.3.60f1 (5f63fdee6d95)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.5
   testable: 0
   isDirectDependency: 1
   version: 1.1.5
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.ai.navigation@1.1.5"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.ai.navigation@1.1.5
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -102,7 +102,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.7.1
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.collab-proxy@2.7.1"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.collab-proxy@2.7.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -197,13 +197,8 @@ m_ResolvedPackages:
     - 2.6.0
     - 2.7.1
     compatible:
-    - 2.4.3
-    - 2.4.4
-    - 2.5.1
-    - 2.5.2
-    - 2.6.0
     - 2.7.1
-    recommended: 2.4.4
+    recommended: 2.7.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -242,7 +237,7 @@ m_ResolvedPackages:
     revision: cf9c21f84be18cbe2d6a93ec7cfbeb01b4310bbe
     path: 
   unityLifecycle:
-    version: 2.4.3
+    version: 2.7.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -255,7 +250,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.1
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.feature.2d@2.0.1"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.feature.2d@2.0.1
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -298,11 +293,11 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.1.1
+    version: 9.1.3
   - name: com.unity.2d.common
-    version: 8.0.3
+    version: 8.0.4
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -328,7 +323,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.psdimporter
     version: 8.0.5
   - name: com.unity.2d.spriteshape
-    version: 9.0.4
+    version: 9.0.5
   - name: com.unity.modules.physics2d
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -336,11 +331,11 @@ m_ResolvedPackages:
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 3.1.2
+    version: 3.1.3
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.2d.aseprite
-    version: 1.1.4
+    version: 1.1.8
   keywords: []
   registry:
     id: main
@@ -374,7 +369,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.34
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.ide.rider@3.0.34"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.ide.rider@3.0.34
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -437,7 +432,6 @@ m_ResolvedPackages:
     - 3.0.34
     - 3.0.35
     compatible:
-    - 3.0.31
     - 3.0.34
     - 3.0.35
     recommended: 3.0.35
@@ -468,7 +462,7 @@ m_ResolvedPackages:
     revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
     path: 
   unityLifecycle:
-    version: 3.0.31
+    version: 3.0.34
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -481,7 +475,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -573,7 +567,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.test-framework@1.1.33"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -715,7 +709,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.7
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.textmeshpro@3.0.7
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -847,7 +841,6 @@ m_ResolvedPackages:
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
-    - 3.0.6
     - 3.0.7
     - 3.0.8
     - 3.0.9
@@ -902,7 +895,7 @@ m_ResolvedPackages:
     revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -915,7 +908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.6
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.timeline@1.7.6"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1089,7 +1082,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.ugui@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1162,7 +1155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.visualscripting@1.9.4"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.visualscripting@1.9.4
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1265,7 +1258,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.ai@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1321,7 +1314,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.androidjni@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1376,7 +1369,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.animation@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1432,7 +1425,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.assetbundle@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1488,7 +1481,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.audio@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1544,7 +1537,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.cloth@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1604,7 +1597,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.director@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1668,7 +1661,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.imageconversion@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1725,7 +1718,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.imgui@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1781,7 +1774,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.jsonserialize@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1837,7 +1830,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.particlesystem@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1893,7 +1886,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.physics@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1949,7 +1942,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.physics2d@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2005,7 +1998,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.screencapture@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2065,7 +2058,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.terrain@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2121,7 +2114,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.terrainphysics@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2185,7 +2178,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.tilemap@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2244,7 +2237,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.ui@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2300,7 +2293,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.uielements@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2368,7 +2361,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.umbra@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2424,7 +2417,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.unityanalytics@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2488,7 +2481,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.unitywebrequest@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2544,7 +2537,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2608,7 +2601,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2672,7 +2665,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2736,7 +2729,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2816,7 +2809,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.vehicles@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2876,7 +2869,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.video@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2944,7 +2937,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.vr@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3014,7 +3007,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.wind@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3070,7 +3063,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.xr@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3138,7 +3131,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.modules.subsystems@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3198,7 +3191,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3265,12 +3258,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.2d.animation@9.1.1
+- packageId: com.unity.2d.animation@9.1.3
   testable: 0
   isDirectDependency: 0
-  version: 9.1.1
+  version: 9.1.3
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.animation@9.1.1"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.animation@9.1.3
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3279,7 +3272,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
   status: 0
@@ -3419,15 +3412,13 @@ m_ResolvedPackages:
     - 10.1.4
     - 10.2.0
     compatible:
-    - 9.1.1
-    - 9.1.2
     - 9.1.3
     - 9.2.0
     recommended: 9.1.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -3438,9 +3429,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.3
+    version: 8.0.4
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -3474,16 +3465,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638515171890000000
+  datePublishedTicks: 638647709295660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c76edf174a772eda3d3152a9d38ad8c364cce43e
+    revision: 8a1c28ecd445416882b23beb7707d3d60b153f79
     path: 
   unityLifecycle:
-    version: 9.1.1
+    version: 9.1.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3496,7 +3487,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.3
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.pixel-perfect@5.0.3"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -3582,7 +3573,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 8.0.5
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.psdimporter@8.0.5"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.psdimporter@8.0.5
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -3695,9 +3686,9 @@ m_ResolvedPackages:
     version: 9.1.1
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.3
+    version: 8.0.4
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -3713,7 +3704,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.2d.animation
-    version: 9.1.1
+    version: 9.1.3
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -3756,7 +3747,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.sprite@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -3810,12 +3801,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.2d.spriteshape@9.0.4
+- packageId: com.unity.2d.spriteshape@9.0.5
   testable: 0
   isDirectDependency: 0
-  version: 9.0.4
+  version: 9.0.5
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.spriteshape@9.0.4"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.spriteshape@9.0.5
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3824,7 +3815,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
@@ -3925,23 +3916,22 @@ m_ResolvedPackages:
     - 10.0.7
     - 10.1.0
     compatible:
-    - 9.0.4
     - 9.0.5
     - 9.1.0
     recommended: 9.0.5
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.3
+    version: 8.0.4
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.3
+    version: 8.0.4
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -3975,16 +3965,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638567250110000000
+  datePublishedTicks: 638647709311310000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 317cb5a2d84ec8711e66cbcce61bc6179da9d791
+    revision: 8a1c28ecd445416882b23beb7707d3d60b153f79
     path: 
   unityLifecycle:
-    version: 9.0.4
+    version: 9.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3997,7 +3987,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.tilemap@1.0.0"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -4066,12 +4056,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.2d.tilemap.extras@3.1.2
+- packageId: com.unity.2d.tilemap.extras@3.1.3
   testable: 0
   isDirectDependency: 0
-  version: 3.1.2
+  version: 3.1.3
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3.1.2"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -4080,7 +4070,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -4142,7 +4132,6 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.0
     compatible:
-    - 3.1.2
     - 3.1.3
     recommended: 3.1.3
     deprecated: []
@@ -4184,16 +4173,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638320873890000000
+  datePublishedTicks: 638647709245980000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 741b52ca8bcd71b4e016208dbfe792374ca334c8
+    revision: 8338e2715a3f0921b8c4cf9c90823fb2a21c10b5
     path: 
   unityLifecycle:
-    version: 3.1.2
+    version: 3.1.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4201,12 +4190,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.2d.aseprite@1.1.4
+- packageId: com.unity.2d.aseprite@1.1.8
   testable: 0
   isDirectDependency: 0
-  version: 1.1.4
+  version: 1.1.8
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.aseprite@1.1.4"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.aseprite@1.1.8
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -4215,7 +4204,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Aseprite Importer is a package which enables the import of .aseprite
     files from the Pixel Art tool Aseprite.
   status: 0
@@ -4242,10 +4231,6 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     compatible:
-    - 1.1.4
-    - 1.1.5
-    - 1.1.6
-    - 1.1.7
     - 1.1.8
     recommended: 1.1.8
     deprecated: []
@@ -4260,9 +4245,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.3
+    version: 8.0.4
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4293,16 +4278,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638509289520000000
+  datePublishedTicks: 638725312306540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 331d65bad3469b434c81f625682efc587a1e9258
+    revision: 02487451b5735520a22cdd8423415415e5cc8484
     path: 
   unityLifecycle:
-    version: 1.1.4
+    version: 1.1.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4310,12 +4295,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.2d.common@8.0.3
+- packageId: com.unity.2d.common@8.0.4
   testable: 0
   isDirectDependency: 0
-  version: 8.0.3
+  version: 8.0.4
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.2d.common@8.0.3"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.2d.common@8.0.4
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4324,7 +4309,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
   status: 0
@@ -4394,7 +4379,6 @@ m_ResolvedPackages:
     - 9.0.7
     - 9.1.0
     compatible:
-    - 8.0.3
     - 8.0.4
     - 8.1.0
     recommended: 8.0.4
@@ -4412,7 +4396,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4439,16 +4423,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638567250090000000
+  datePublishedTicks: 638647709261720000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@8.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 317cb5a2d84ec8711e66cbcce61bc6179da9d791
+    revision: 8a1c28ecd445416882b23beb7707d3d60b153f79
     path: 
   unityLifecycle:
-    version: 8.0.3
+    version: 8.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4461,7 +4445,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.mathematics@1.2.6"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4538,7 +4522,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.collections@1.2.4"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.collections@1.2.4
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -4665,7 +4649,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.16
+    version: 1.8.19
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4707,12 +4691,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.burst@1.8.16
+- packageId: com.unity.burst@1.8.19
   testable: 0
   isDirectDependency: 0
-  version: 1.8.16
+  version: 1.8.19
   source: 1
-  resolvedPath: "C:\\Users\\yangj\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\CardGameVer2\\CardGame\\Library\\PackageCache\\com.unity.burst@1.8.16"
+  resolvedPath: C:\Users\Administrator\Desktop\CardGameVer3\CardGame\Library\PackageCache\com.unity.burst@1.8.19
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4721,7 +4705,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -4863,9 +4847,6 @@ m_ResolvedPackages:
     - 1.8.18
     - 1.8.19
     compatible:
-    - 1.8.16
-    - 1.8.17
-    - 1.8.18
     - 1.8.19
     recommended: 1.8.19
     deprecated: []
@@ -4890,16 +4871,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638538904590000000
+  datePublishedTicks: 638731397665570000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: c26d24707e3090f86fd59f265b377ec2fe17f690
+    revision: 6498e90e8843e51fdb3a37b709a1f1e4b86d3e57
     path: 
   unityLifecycle:
-    version: 1.8.16
+    version: 1.8.19
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4907,4 +4888,4 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-m_BuiltInPackagesHash: 8371bccdf25c88a600741282500be9bae6081427
+m_BuiltInPackagesHash: 55161b0a7783798f026faea39699e9f86a6c85ee

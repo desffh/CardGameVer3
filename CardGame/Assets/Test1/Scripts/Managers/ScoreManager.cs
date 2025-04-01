@@ -20,20 +20,25 @@ public class ScoreManager : Singleton<ScoreManager>
                 totalScore = 0;
             }
 
-            totalScore += value; }
+            totalScore += value; 
+        }
     }
 
 
     public bool Calculation()
     { 
-        if(TotalScore > Round.Instance.CurrentScores)
+        if(TotalScore >= Round.Instance.CurrentScores)
         {
+            Debug.Log("목표 점수 달성");
+
             // 스테이지 플레이 종료
             GameManager.Instance.PlayOff();
             return true;
         }
         else
-        { 
+        {
+            Debug.Log("목표 점수 실패 - 더 플레이하세요");
+
             return false;
         }
     }

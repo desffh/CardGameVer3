@@ -13,6 +13,8 @@ public class HoldManager : Singleton<HoldManager>
     // 계산 이벤트
     public UnityEvent calculation;
 
+    public Action ActionSetting;
+
 
     WaitForSeconds waitForSeconds;
 
@@ -26,8 +28,13 @@ public class HoldManager : Singleton<HoldManager>
     [SerializeField] TextManager textManager;
     [SerializeField] AnimationManager animationManager;
 
-
     private Queue<Func<IEnumerator>> actionQueue = new Queue<Func<IEnumerator>>();
+
+    protected override void Awake()
+    {
+        base.Awake();
+        ActionSetting += Setting;
+    }
 
     private void Start()
     {
@@ -73,7 +80,7 @@ public class HoldManager : Singleton<HoldManager>
     public void Calculation()
     {
         calculation.Invoke();
-        Debug.Log("계산 시작");
+        //Debug.Log("계산 시작");
     }
 
     // 등록된 이벤트
@@ -86,11 +93,13 @@ public class HoldManager : Singleton<HoldManager>
 
         StartCoroutine(ExecuteActions());
 
-
+        
         if (HandDelete.Instance.Hand <= 0)
         {
             StageEnd();
         }
+
+
     }
 
     private IEnumerator ExecuteActions()
@@ -101,16 +110,14 @@ public class HoldManager : Singleton<HoldManager>
             yield return StartCoroutine(actionQueue.Dequeue().Invoke());
         }
 
-        ScoreManager.Instance.Calculation();
-        
-        if(GameManager.Instance.PlayState != false)
+
+        if(ScoreManager.Instance.Calculation() == false)
         {
-            StartCoroutine(Setting());
+            ActionSetting.Invoke();
         }
     }
 
-
-    public IEnumerator Setting()
+    public void Setting()
     {
 
         // 계산 다 하고 리스트 초기화
@@ -126,8 +133,6 @@ public class HoldManager : Singleton<HoldManager>
         // 다시 콜라이더 활성화
         KardManager.Instance.card.StartCollider();
         ButtonManager.Instance.ButtonInactive();
-        
-        yield return CoroutineCache.WaitForSeconds(1f);
 
         RefillActionQueue();
     }

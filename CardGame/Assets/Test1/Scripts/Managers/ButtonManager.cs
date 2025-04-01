@@ -30,7 +30,7 @@ public class ButtonManager : Singleton<ButtonManager>
 
     private void Update()
     {
-       if(isButtonActive == true && HandDelete.Instance.Hand > 0 && GameManager.Instance.Hold == true) 
+       if(isButtonActive == true && HandDelete.Instance.Hand > 0 && PokerManager.Instance.CardIDdata.Count > 0) 
        {
             Handbutton.interactable = true;
        }
@@ -38,7 +38,7 @@ public class ButtonManager : Singleton<ButtonManager>
        {
             Handbutton.interactable = false;
        }
-       if(isButtonActive == true && HandDelete.Instance.Delete > 0 && GameManager.Instance.Hold == true)
+       if(isButtonActive == true && HandDelete.Instance.Delete > 0 && PokerManager.Instance.CardIDdata.Count > 0)
         {
             Treshbutton.interactable = true;
         }
@@ -52,8 +52,8 @@ public class ButtonManager : Singleton<ButtonManager>
     // 핸드버튼을 클릭했을 때
     public void OnHandButtonClick()
     {
-        if(GameManager.Instance.Hold == true)
-        {
+        
+        
             for (int i  = 0; i < PokerManager.Instance.CardIDdata.Count; i++)
             {
                 // 저장된 카드의 스크립트 가져오기
@@ -80,15 +80,12 @@ public class ButtonManager : Singleton<ButtonManager>
 
             // 더하기 계산
             HoldManager.Instance.Calculation();
-        }
+        
     }
 
     // 버리기 버튼을 클릭했을 때
     public void OnDeleteButtonClick()
-    {
-
-        if (GameManager.Instance.Hold == true)
-        {
+    {    
             isButtonActive = false;
 
             for (int i = 0; i < PokerManager.Instance.CardIDdata.Count; i++)
@@ -117,7 +114,7 @@ public class ButtonManager : Singleton<ButtonManager>
             // 남은 카드들 재정렬 되기
             KardManager.Instance.SetOriginOrder();
             KardManager.Instance.CardAlignment();
-        }
+        
     }
 
     // 이벤트에 들어갈 함수 -> 계산이 시작되면 버튼 상호작용 비활성화

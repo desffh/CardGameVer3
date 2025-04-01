@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Round : Singleton<Round>
 {
@@ -13,6 +15,12 @@ public class Round : Singleton<Round>
     [SerializeField] int[] stageScores = new int[3];
 
 
+    public int[] stages
+    {
+        get { return stageScores; }
+    }
+
+
     // ------- 현재 스테이지 목표 스코어 -------------------
     [SerializeField] int currentScores;
 
@@ -20,6 +28,13 @@ public class Round : Singleton<Round>
     {
         get { return currentScores; }
     }
+
+
+    // ----------- 활성화 할 버튼 ---------------------------
+    [SerializeField] Button[] stagebuttons; 
+
+
+    
 
     protected override void Awake()
     {
@@ -32,6 +47,13 @@ public class Round : Singleton<Round>
 
         // 첫 셋팅
         ScoreSetting();
+
+        for (int i = 0; i < stagebuttons.Length; i++)
+        {
+            stagebuttons[i].interactable = false;
+        }
+
+        stagebuttons[0].interactable = true;
     }
 
     public void ScoreSetting()
@@ -50,6 +72,12 @@ public class Round : Singleton<Round>
     public void Score(int stage)
     {
         currentScores = stageScores[stage];
+
+
+
+        stagebuttons[stage].interactable = false;
+
+        stagebuttons[(stage + 1) % 3].interactable = true;
     }
 
 }
