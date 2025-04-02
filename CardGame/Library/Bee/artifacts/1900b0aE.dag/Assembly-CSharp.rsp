@@ -428,6 +428,10 @@
 "Assets/Test1/Scripts/SO/JokerDataReader.cs"
 "Assets/Test1/Scripts/SO/JokerReaderBase.cs"
 "Assets/Test1/Scripts/StageButton.cs"
+"Assets/Test1/Scripts/StagePanel.cs"
+"Assets/Test1/Scripts/Texts/MultiplyText.cs"
+"Assets/Test1/Scripts/Texts/PlusText.cs"
+"Assets/Test1/Scripts/Texts/TextUpdater.cs"
 "Assets/Test1/Scripts/Utils.cs"
 -langversion:9.0
 /deterministic

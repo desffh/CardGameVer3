@@ -178,8 +178,7 @@ public class KardManager : Singleton<KardManager>
         CardAlignment();
     }
 
-    
-    
+
 
     public void SetupNextStage()
     {

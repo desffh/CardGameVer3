@@ -2,9 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TextManager : MonoBehaviour
 {
+    // 여러 UI 클래스를 배열로 관리
+    [SerializeField] private TextUpdater[] uiUpdaters;
+
+
+    // 텍스트 UI 업데이트 호출
+    public void UpdateText(int index, int value)
+    {
+        if (index >= 0 && index < uiUpdaters.Length)
+        {
+            uiUpdaters[index].UpdateText(value);  // 인덱스를 통해 접근하여 텍스트 갱신
+        }
+        else
+        {
+            Debug.LogWarning("Invalid UI index: " + index);
+        }
+    }
+
+
+
+    // |-------------------------------------------------
+
     [SerializeField] TextMeshProUGUI PokerText;
 
     [SerializeField] TextMeshProUGUI PlusText;
@@ -27,24 +49,20 @@ public class TextManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI deleteCount;
 
 
-    // 카드 위에 뜰 개별 텍스트 -> 하나의 프리팹으로 숫자만 바꿔서 쓰자
-    //[SerializeField] GameObject Indexscore;
-
-
     private void Awake()
     {
 
     }
 
-    private void Start()
-    {
-        HandText.text = HandDelete.Instance.Hand.ToString();
-        DeleteText.text = HandDelete.Instance.Delete.ToString();
-
-        // 일단 한번 호출해서 UI 싹 갱신
-        BufferUpdate();
-        HandCardUpdate();
-    }
+   private void Start()
+   {
+       HandText.text = HandDelete.Instance.Hand.ToString();
+       DeleteText.text = HandDelete.Instance.Delete.ToString();
+   
+       // 일단 한번 호출해서 UI 싹 갱신
+       BufferUpdate();
+       HandCardUpdate();
+   }
 
     private void Update()
     {
@@ -57,20 +75,20 @@ public class TextManager : MonoBehaviour
     {
         PokerText.text = pokertext;
     }
-    // 더하기
-    public void PlusTextUpdate(int plussum = 0)
-    {
-        PlusText.text = plussum.ToString();
-        animationmanager.CaltransformAnime(PlusText);
-    }
+   // 더하기
+   public void PlusTextUpdate(int plussum = 0)
+   {
+       PlusText.text = plussum.ToString();
+       animationmanager.CaltransformAnime(PlusText);
+   }
 
-    // 곱하기
-    public void MultipleTextUpdate(int multisum = 0)
-    {
-        MultiplyText.text = multisum.ToString();
-        animationmanager.CaltransformAnime(MultiplyText);
-
-    }
+   // 곱하기
+   public void MultipleTextUpdate(int multisum = 0)
+   {
+       MultiplyText.text = multisum.ToString();
+       animationmanager.CaltransformAnime(MultiplyText);
+   
+   }
 
     // 족보가 완성되면 호출
     public void PokerUpdate(int plus, int multiple)
