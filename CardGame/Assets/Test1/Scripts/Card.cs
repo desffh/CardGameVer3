@@ -10,7 +10,7 @@ using UnityEngine.Events;
 using System;
 
 // Card에 들어갈 스크립트
-public class Card : MonoBehaviour
+public class Card : CardComponent
 {
     private Transform cardPrefabs;
      
@@ -95,21 +95,25 @@ public class Card : MonoBehaviour
             transform.localScale = prs.scale;
         }
     }
-    
+
+    // |--------------------------------------------------------------
+
+
     // 마우스로 클릭하면 CardIDdata 리스트에 카드 넣기 (최대5개)
-    // 콜라이더가 부착된 Card오브젝트를 클릭 할 수 있다
     public void OnMouseDown()
+    {
+        OnMouse();
+    }
+
+    public override void OnMouse()
     {
         // 리스트가 꽉 찼다면
         if (checkCard && PokerManager.Instance.CardIDdata.Count <= 5)
         {
             // 이 스크립트가 달린 Card를 매개변수로 전달
             PokerManager.Instance.RemoveSuitIDdata(this);
-            
-            // 기존 위치로 이동
-            cardPrefabs.DOMove(new Vector3(cardPrefabs.transform.position.x,
-               cardPrefabs.transform.position.y -0.5f,
-               cardPrefabs.transform.position.z), 0.2f);
+
+            AnimationManager.Instance.CardAnime(cardPrefabs);
 
             checkCard = false;
         }
@@ -118,56 +122,42 @@ public class Card : MonoBehaviour
         {
             PokerManager.Instance.SaveSuitIDdata(this);
             
-            // 클릭 애니메이션
-            cardPrefabs.DOMove(new Vector3(cardPrefabs.transform.position.x,
-               cardPrefabs.transform.position.y + 0.5f,
-               cardPrefabs.transform.position.z), 0.2f);
-            
+            AnimationManager.Instance.ReCardAnime(cardPrefabs);
+
             checkCard = true;
         }
         else
         {
-            Debug.Log("더이상 카드를 누를 수 없음");
-
-            // 카드를 클릭하면 애니메이션
-            cardPrefabs.DOScale(new Vector3(0.65f, 0.65f, 0.65f), 0.1f).
-            OnComplete(() => { cardPrefabs.transform.DOScale(new Vector3(0.7f, 0.7f, 0.7f), 0.2f); });
-        }
+            AnimationManager.Instance.NoCardAnime(cardPrefabs);
+        }   
              
         // 족보 확인
         if (PokerManager.Instance.CardIDdata.Count >= 0)
         {
-            PokerManager.Instance.Hand();
-            PokerManager.Instance.getHandType();
+            //PokerManager.Instance.Hand();
+            //PokerManager.Instance.getHandType();
         }
+        
     }
 
-    // 카드 콜라이더 비활성화
-    public void QuitCollider()
+    // |--------------------------------------------------------------
+
+    // 배치된 카드 콜라이더 비활성화
+    public override void OffCollider()
     {
-        //Debug.Log("카드들 콜라이더 비활성화");
-        
-        // 소지중인 카드
         for (int i = 0; i < KardManager.Instance.myCards.Count; i++)
         {
             KardManager.Instance.myCards[i].Collider2D.enabled = false;
         }
-
-        // 계산중인 카드
-        for (int i = 0; i < PokerManager.Instance.CardIDdata.Count; i++)
-        {
-            PokerManager.Instance.CardIDdata[i].gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        }
     }
 
-    // 콜라이더 활성화
-    public void StartCollider()
+    // 배치된 카드 콜라이더 활성화
+    public override void OnCollider()
     {
-        //Debug.Log("카드들 콜라이더 활성화");
-
         for(int i = 0; i < KardManager.Instance.myCards.Count; i++)
         {
             KardManager.Instance.myCards[i].Collider2D.enabled = true;  
         }
     }
+
 }

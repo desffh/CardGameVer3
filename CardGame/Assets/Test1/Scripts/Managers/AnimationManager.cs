@@ -6,9 +6,8 @@ using DG.Tweening;
 using TMPro;
 
 
-public class AnimationManager : MonoBehaviour
+public class AnimationManager : Singleton<AnimationManager>
 {
-
     // 스코어들 텍스트
     public void CaltransformAnime(TextMeshProUGUI scoreText)
     {
@@ -23,7 +22,8 @@ public class AnimationManager : MonoBehaviour
             DOTween.To(() => scoreText.fontSize, x => scoreText.fontSize = x, originalFontSize, 0.1f);
         });
     }
-
+    
+    // 핸드 플레이 시 카드 이동
     public void PlayCardAnime(GameObject cardPrefabs)
     {
         cardPrefabs.transform.DORotate(new Vector3(cardPrefabs.transform.position.x,
@@ -36,5 +36,27 @@ public class AnimationManager : MonoBehaviour
 
         cardPrefabs.transform.DOScale(new Vector3(0.8f, 0.8f, 0.8f), 0.5f).
             OnComplete(() => { cardPrefabs.transform.DOScale(new Vector3(0.7f, 0.7f, 0.7f), 0.3f); });
+    }
+
+    // 카드를 눌렀을 때
+    public void CardAnime(Transform cardTransform)
+    {
+        cardTransform.DOMove(new Vector3(cardTransform.transform.position.x,
+           cardTransform.transform.position.y - 0.5f,
+           cardTransform.transform.position.z), 0.2f);
+    }
+
+    // 카드를 눌렀을 때 제자리
+    public void ReCardAnime(Transform cardTransform)
+    {
+        cardTransform.DOMove(new Vector3(cardTransform.transform.position.x,
+           cardTransform.transform.position.y + 0.5f,
+           cardTransform.transform.position.z), 0.2f);
+    }
+
+    public void NoCardAnime(Transform cardTransform)
+    {
+        cardTransform.DOScale(new Vector3(0.65f, 0.65f, 0.65f), 0.1f).
+            OnComplete(() => { cardTransform.transform.DOScale(new Vector3(0.7f, 0.7f, 0.7f), 0.2f); });
     }
 }

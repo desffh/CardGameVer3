@@ -195,7 +195,7 @@ public class KardManager : Singleton<KardManager>
         AddCardSpawn();
 
         // 콜라이더 활성화
-        card.StartCollider();
+        card.OnCollider();
         ButtonManager.Instance.ButtonInactive();
 
         // 핸드 & 버리기 카운트 초기화 
@@ -214,7 +214,7 @@ public class KardManager : Singleton<KardManager>
     // 배치된 카드 & 계산중인 카드 콜라이더 비활성화
     public void ColliderQuit()
     {   
-        card.QuitCollider();
+        card.OffCollider();
         PokerManager.Instance.QuitCollider2();
     }
 

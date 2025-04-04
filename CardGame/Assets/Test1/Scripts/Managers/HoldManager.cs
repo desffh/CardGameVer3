@@ -131,7 +131,7 @@ public class HoldManager : Singleton<HoldManager>
         KardManager.Instance.AddCardSpawn();
 
         // 다시 콜라이더 활성화
-        KardManager.Instance.card.StartCollider();
+        KardManager.Instance.card.OnCollider();
         ButtonManager.Instance.ButtonInactive();
 
         RefillActionQueue();
@@ -190,7 +190,7 @@ public class HoldManager : Singleton<HoldManager>
         UIupdate();
 
         // 다시 콜라이더 활성화
-        KardManager.Instance.card.StartCollider();
+        KardManager.Instance.card.OnCollider();
         ButtonManager.Instance.ButtonInactive();
         yield break;
     }
@@ -282,7 +282,7 @@ public class HoldManager : Singleton<HoldManager>
     public void StartDeleteCard()
     {
         // 버리는 동안 카드의 콜라이더 비활성화               
-        KardManager.Instance.card.QuitCollider();
+        KardManager.Instance.card.OffCollider();
 
         // 카드 비활성화 & 콜라이더 활성화 
         StartCoroutine(deleteCard());

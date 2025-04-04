@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2219,10 +2220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f55ce062c522a94eaae4d8d3140531a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveNum: 
   deleteCardPoint: {fileID: 1013039322}
   CardIDdata: []
   TextManager: {fileID: 735893446}
-  saveNum: 
 --- !u!1 &409935965
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,6 +4455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a33585f6c0e33f4bb0889249cf8bbdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiUpdaters: []
   PokerText: {fileID: 669951611}
   PlusText: {fileID: 1561254831}
   MultiplyText: {fileID: 1928709778}
