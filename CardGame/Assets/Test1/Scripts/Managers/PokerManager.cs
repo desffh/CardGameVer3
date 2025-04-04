@@ -56,19 +56,19 @@ public class PokerManager : Singleton<PokerManager>
     // 카드 리스트를 평가하여 족보 이름과 점수를 출력
     public void EvaluatePokerHands(List<Card> cards)
     {
-        // 이전 saveNum을 비우고 새로 시작
         saveNum.Clear();
 
         foreach (var hand in pokerHands)
         {
-            hand.PokerHandle(cards, saveNum);
+            List<int> tempSaveNum = new List<int>(); // 임시 저장 리스트
 
-            if(saveNum.Count > 0)
+            hand.PokerHandle(cards, tempSaveNum);
+
+            if (tempSaveNum.Count > 0) // 첫 번째로 매칭되는 족보만 저장
             {
-                for (int i = 0; i < saveNum.Count; i++)
-                {
-                    Debug.Log(saveNum[i]);
-                }
+                saveNum = tempSaveNum;
+                Debug.Log($"족보 선택됨: {hand.pokerName}");
+                break;
             }
         }
     }
@@ -81,7 +81,7 @@ public class PokerManager : Singleton<PokerManager>
         // LinQ메서드를 사용한 오름차순정렬 (value 값 (숫자 갯수) 기준으로)
         CardIDdata = CardIDdata.OrderBy(x => x.itemdata.id).ToList();
 
-        if (CardIDdata.Count > 0)
+        if (CardIDdata.Count >= 0)
         {
             EvaluatePokerHands(CardIDdata);
         }
@@ -96,6 +96,13 @@ public class PokerManager : Singleton<PokerManager>
         {
             EvaluatePokerHands(CardIDdata);
         }
+        else
+        {
+            // 카드가 다 제거된 경우에도 saveNum 초기화
+            saveNum.Clear();
+            Debug.Log("모든 카드가 제거되어 saveNum 초기화됨.");
+        }
+
     }
 
 

@@ -11,13 +11,20 @@ public class straight : IsStrightPlush, IPokerHandle
     {
         Dictionary<int, int> cardCount = CardCount.Hand(cards);
 
-        if(isStraight(cards))
+        if (cards.Count == 5)
         {
-             //스트레이트
-             for (int i = 0; i < cards.Count; i++)
-             {
-                 saveNum.Add(cards[i].itemdata.id);
-             }
+            if (isStraight(cards))
+            {
+                Debug.Log("스트레이트");
+
+                //스트레이트
+                for (int i = 0; i < cards.Count; i++)
+                {
+                    saveNum.Add(cards[i].itemdata.id);
+                }
+            }
         }
+            return;
+
     }
 }

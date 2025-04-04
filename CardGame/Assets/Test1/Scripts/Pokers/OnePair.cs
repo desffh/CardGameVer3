@@ -14,13 +14,17 @@ public class OnePair : IPokerHandle
         // 捧其绢 贸府
         if (cardCount.Values.Contains(2))
         {
+            Debug.Log("盔其绢");
             foreach (var item in cardCount.Where(x => x.Value == 2))
             {
+                
                 for (int i = 0; i < 2; i++)
                 {
                     saveNum.Add(item.Key);
                 }
             }
         }
+        return;
+
     }
 }

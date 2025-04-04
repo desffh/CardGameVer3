@@ -15,6 +15,7 @@ public class FourCard : IsStrightPlush, IPokerHandle
         //풀 하우스, 포카드 처리
         if (cardCount.Count() == 2)
         {
+            Debug.Log("포 카드");
             var lastElement = cardCount.LastOrDefault(); // 마지막 요소
             var firstElement = cardCount.FirstOrDefault(); // 처음 요소
 
@@ -33,5 +34,7 @@ public class FourCard : IsStrightPlush, IPokerHandle
                 }
             }
         }
+        return;
+
     }
 }

@@ -11,17 +11,23 @@ public class fullHouse : IsStrightPlush, IPokerHandle
     {
         Dictionary<int, int> cardCount = CardCount.Hand(cards);
 
-        //풀 하우스, 포카드 처리
-        if (cardCount.Count() == 2)
+        if(cards.Count == 5)
         {
-            var lastElement = cardCount.LastOrDefault(); // 마지막 요소
-            var firstElement = cardCount.FirstOrDefault(); // 처음 요소
+            //풀 하우스, 포카드 처리
+            if (cardCount.Count() == 2)
+            {
+                Debug.Log("풀 하우스");
+                var lastElement = cardCount.LastOrDefault(); // 마지막 요소
+                var firstElement = cardCount.FirstOrDefault(); // 처음 요소
 
-             //풀 하우스 (3장, 2장 ) 모두 넣기 
-             for (int i = 0; i < cards.Count; i++)
-             {
-                 saveNum.Add(cards[i].itemdata.id);
-             }
+                 //풀 하우스 (3장, 2장 ) 모두 넣기 
+                 for (int i = 0; i < cards.Count; i++)
+                 {
+                     saveNum.Add(cards[i].itemdata.id);
+                 }
+            }
         }
+        return;
     }
+
 }

@@ -14,6 +14,8 @@ public class TwoPair : IPokerHandle
         // 투페어 처리
         if (cardCount.Values.Count(v => v == 2) == 2)
         {
+            Debug.Log("투페어");
+
             foreach (var item in cardCount.Where(x => x.Value == 2))
             {
                 for (int i = 0; i < 2; i++)
@@ -21,6 +23,8 @@ public class TwoPair : IPokerHandle
                     saveNum.Add(item.Key);  // saveNum 리스트에 카드 숫자 추가
                 }
             }
+
         }
+            return;
     }
 }

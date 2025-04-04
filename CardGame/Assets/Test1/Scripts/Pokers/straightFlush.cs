@@ -10,13 +10,20 @@ public class straightFlush : IsStrightPlush, IPokerHandle
     {
         Dictionary<int, int> cardCount = CardCount.Hand(cards);
 
-        if (isStraight(cards) && isFlush(cards))
+        if (cards.Count == 5)
         {
-            //스트레이트 플러쉬
-            for (int i = 0; i < cards.Count; i++)
+            if (isStraight(cards) && isFlush(cards))
             {
-                saveNum.Add(cards[i].itemdata.id);
+                Debug.Log("스트레이트 플러쉬");
+
+                //스트레이트 플러쉬
+                for (int i = 0; i < cards.Count; i++)
+                {
+                    saveNum.Add(cards[i].itemdata.id);
+                }
             }
         }
+        return;
+
     }
 }

@@ -11,12 +11,17 @@ public class Flush : IsStrightPlush, IPokerHandle
     {
         Dictionary<int, int> cardCount = CardCount.Hand(cards);
 
-        if (isFlush(cards))
+        if (cards.Count == 5)
         {
-            for (int i = 0; i < cards.Count; i++)
+            if (isFlush(cards))
+            {
+                Debug.Log("ÇÃ·¯½¬");
+                for (int i = 0; i < cards.Count; i++)
                 {
                     saveNum.Add(cards[i].itemdata.id);
                 }
+            }
         }
+        return;
     }
 }

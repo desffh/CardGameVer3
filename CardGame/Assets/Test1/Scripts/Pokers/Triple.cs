@@ -14,8 +14,10 @@ public class Triple : IPokerHandle
         //트리플 처리
             if (cardCount.Values.Contains(3))
             {
-                // 3과 똑같은 벨류값을 가진애 찾기
-                foreach (var item in cardCount.Where(x => x.Value == 3))
+            Debug.Log("트리플");
+
+            // 3과 똑같은 벨류값을 가진애 찾기
+            foreach (var item in cardCount.Where(x => x.Value == 3))
                 {
                     for (int i = 0; i < 3; i++)
                     {
@@ -23,5 +25,7 @@ public class Triple : IPokerHandle
                     }
                 }
             }
+        return;
+
     }
 }

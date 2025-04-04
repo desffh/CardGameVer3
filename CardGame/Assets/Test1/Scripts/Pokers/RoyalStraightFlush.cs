@@ -12,8 +12,10 @@ public class RoyalStraightFlush : IsStrightPlush, IPokerHandle
 
         if (isStraight(cards) && isFlush(cards))
         {
+            
             if (cards[0].itemdata.id == 10)
             {
+                Debug.Log("로얄 스트레이트 플러쉬");
                 //로얄 스트레이트 플러쉬
                 for (int i = 0; i < cards.Count; i++)
                 {
@@ -21,5 +23,7 @@ public class RoyalStraightFlush : IsStrightPlush, IPokerHandle
                 }
             }
         }
+        return;
+
     }
 }
