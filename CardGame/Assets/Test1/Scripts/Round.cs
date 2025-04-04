@@ -6,9 +6,10 @@ using UnityEngine.UI;
 
 public class Round : Singleton<Round>
 {
+    // 큰 스테이지
     [SerializeField] Queue<int> currentStages = new Queue<int>();
 
-    // 현재 라운드 
+    // 현재 라운드 (작은 스테이지)
     [SerializeField] int currentStage;
 
     // 현재 스테이지 점수 셋팅
@@ -28,7 +29,6 @@ public class Round : Singleton<Round>
     {
         get { return currentScores; }
     }
-
 
     // ----------- 활성화 할 버튼 ---------------------------
     [SerializeField] Button[] stagebuttons; 
@@ -56,6 +56,7 @@ public class Round : Singleton<Round>
         stagebuttons[0].interactable = true;
     }
 
+    // 작은 스테이지 3개 셋팅
     public void ScoreSetting()
     {
         if (currentStages.Count > 0)
@@ -72,8 +73,6 @@ public class Round : Singleton<Round>
     public void Score(int stage)
     {
         currentScores = stageScores[stage];
-
-
 
         stagebuttons[stage].interactable = false;
 

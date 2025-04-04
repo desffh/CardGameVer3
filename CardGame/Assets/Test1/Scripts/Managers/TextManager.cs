@@ -104,17 +104,17 @@ public class TextManager : MonoBehaviour
         animationmanager.CaltransformAnime(TotalScoreText);
     }
 
-    public void HandCountUpdate(int handcount)
-    {
-        HandText.text = handcount.ToString();
-        animationmanager.CaltransformAnime(HandText);
-    }
-
-    public void DeleteCountUpdate(int deletecount)
-    {
-        DeleteText.text = deletecount.ToString();
-        animationmanager.CaltransformAnime(DeleteText);
-    }
+    //public void HandCountUpdate(int handcount)
+    //{
+    //    HandText.text = handcount.ToString();
+    //    animationmanager.CaltransformAnime(HandText);
+    //}
+    //
+    //public void DeleteCountUpdate(int deletecount)
+    //{
+    //    DeleteText.text = deletecount.ToString();
+    //    animationmanager.CaltransformAnime(DeleteText);
+    //}
 
     public void BufferUpdate()
     {

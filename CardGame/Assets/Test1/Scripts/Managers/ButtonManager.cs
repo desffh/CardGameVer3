@@ -52,8 +52,6 @@ public class ButtonManager : Singleton<ButtonManager>
     // 핸드버튼을 클릭했을 때
     public void OnHandButtonClick()
     {
-        
-        
             for (int i  = 0; i < PokerManager.Instance.CardIDdata.Count; i++)
             {
                 // 저장된 카드의 스크립트 가져오기
