@@ -4,14 +4,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextManager : MonoBehaviour
+public class TextManager : Singleton<TextManager>
 {
     // 여러 UI 클래스를 배열로 관리
-    [SerializeField] private TextUpdater[] uiUpdaters;
+    [SerializeField] private NumTextUpdater[] uiUpdaters;
 
 
     // 텍스트 UI 업데이트 호출
-    public void UpdateText(int index, int value)
+    public void UpdateText(int index, int value = 0)
     {
         if (index >= 0 && index < uiUpdaters.Length)
         {
@@ -47,12 +47,6 @@ public class TextManager : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI handCount;
     [SerializeField] TextMeshProUGUI deleteCount;
-
-
-    private void Awake()
-    {
-
-    }
 
    private void Start()
    {

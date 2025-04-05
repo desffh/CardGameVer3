@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class MultiplyText : TextUpdater
+public class MultiplyText : NumTextUpdater
 {
     [SerializeField] TextMeshProUGUI multiplyText;
+
+    private void Awake()
+    {
+        multiplyText = GetComponent<TextMeshProUGUI>();
+    }
 
     public override void UpdateText(int text)
     {
